@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JavaPlayer</string>
+    <string name="Header">Thank you for using JavaPlayer!\nWhat would you like to do?</string>
+    <string name="Music">Listen to Streaming Music!</string>
+    <string name="Podcast">Listen to a Podcast!</string>
+    <string name="ABook">Listen to an Audio Book!</string>
+</resources>

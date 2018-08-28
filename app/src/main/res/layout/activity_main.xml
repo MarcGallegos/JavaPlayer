@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/header"
+        style="@style/MainListCategoryStyle"
+        android:text="@string/Header"
+        android:gravity="center"
+        android:layout_marginHorizontal="15dp"/>
+
+    <TextView
+        android:id="@+id/music_cat"
+        style="@style/MainListCategoryStyle"
+        android:text="@string/Music"
+        android:layout_above="@+id/podcast_cat"
+        />
+
+    <TextView
+        android:id="@+id/podcast_cat"
+        style="@style/MainListCategoryStyle"
+        android:text="@string/Podcast"
+        android:layout_above="@+id/abook_cat"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/abook_cat"
+        style="@style/MainListCategoryStyle"
+        android:text="@string/ABook"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
